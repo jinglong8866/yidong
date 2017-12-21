@@ -1,0 +1,325 @@
+@import url(base.css);
+
+body{
+	background:url(../img/dabeijin.jpg)no-repeat center -45px;
+}
+
+
+header {
+	width: 100%;
+	height: 30px;
+	background: #f5f5f5;
+}
+.head-top{
+	width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    color: #808080;
+}
+.head-left{
+	float: left;
+}
+.head-right{
+	float: right;
+
+}
+
+.hello{
+    display:block;
+    float: left;
+    padding-right: 10px;
+    font: 12px/30px "microsoft yahei";  
+}
+
+.denglu{
+	float: left;
+    width: 72px;
+    height: 30px;
+}
+.denglubiaoqian{
+	width: 70px;
+    height: 30px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    font: 12px/30px "microsoft yahei";
+    text-align: center;
+    color: #e40077;
+    cursor: pointer;
+}
+.grzx{
+	display: inline-block;
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font: 12px/30px "microsoft yahei";
+}
+
+
+.yr:hover{
+	color: #337ab7;
+}
+.khd{
+    transition: 0s;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    text-align: center;
+    color: #808080;
+    background: url(../img/kehuduan.png) no-repeat center center;
+    font: 12px/30px "microsoft yahei";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 112;
+}
+.khdhz{
+    float: left;
+    width: 110px;
+    height: 30px;
+    position: relative;
+}
+
+.jfsc{
+    display: inline-block;
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font: 12px/30px "microsoft yahei";
+}
+
+.gyyd{
+	display: inline-block;
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font: 12px/30px "microsoft yahei";
+}
+.lxwm{
+	display: inline-block;
+	float: left;
+	padding: 0 17px;
+	color: #808080;
+	font: 12px/30px "microsoft yahei";
+
+}
+.zqkh{
+	display: inline-block;
+	float: left;
+	padding: 0 17px;
+	color: #808080;
+	font: 12px/30px "microsoft yahei";
+}
+.ywzm{
+	display: inline-block;
+	float: left;
+	padding: 0 17px;
+	color: #808080;
+	font: 12px/30px "microsoft yahei";
+	
+}
+
+.sousuo{
+	width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+}
+
+.zgydlogo{
+	float: left;
+    width: 230px;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+.diqu{
+    float: left;
+    margin: 40px 0 0 35px;
+    position: relative;
+    z-index: 100;
+}
+.taiyuan{
+	cursor: pointer;
+    height: 18px;
+    padding: 0 15px 0 0;
+    font: 16px/18px "microsoft yahei";
+    color: #333333;
+    background: url(../img/jiantou.png) no-repeat right center;
+}
+
+.sousuobeijing{
+	position: relative;
+    float: right;
+    margin-top: 17px;
+    box-sizing: border-box!important;
+
+}
+.beijing1{
+	background: url(../img/sousuobeijing.png)no-repeat center center;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    position: static;
+    width: 500px;
+    height: 50px;;
+    box-sizing: border-box!important;
+    background-size: 100%;
+}
+.sousuok{
+	outline: none;
+    box-shadow: inset 0 0 0 rgba(0,0,0,0);
+    z-index: 0;
+    border: 0;
+    color: #666666;
+    height: 39px;
+    width:400px;
+    line-height: 34px;
+    font-size: 12px;
+    box-sizing: border-box!important;
+    background: none;
+    padding-left:10px;
+}
+.anniu{
+	display: block;
+    width: 80px;
+    height: 36px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    box-sizing: border-box!important;
+}
+
+.sousuoanniu{
+	outline: none;
+    margin-top: 3px;
+    width: 80px;
+    height: 32px;
+    padding: 0px;
+    border: 0px;
+    background: transparent;
+    text-align: center;
+    font: bold 16px/36px "microsoft yahei";
+    color: #fff;
+    cursor: pointer;
+}
+.wuyuandakuai{
+	padding-top: 5px;
+}
+
+.wuyuan{
+	display: inline-block;
+    padding: 0 20px 0 0;
+    color: #e40077;
+    font-size: 12px;
+}
+
+.xuanhaoruwang{
+	display: inline-block;
+    padding: 0 20px 0 0;
+    color: #333333;
+    font-size: 12px;
+}
+.wuyuan:hover{
+	color: #337ab7; 
+}
+.xuanhaoruwang:hover{
+	color: #337ab7;
+}
+.quanbufuwu{
+	width: 1200px;
+    height: 47px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3eb4fa;
+}
+.quanbufuwu1{
+	float: left;
+    width: 235px;
+    height: 47px;
+    font: 17px/47px "microsoft yahei";
+    text-align: center;
+    color: #ffffff!important;
+    background: #3eb4fa;
+}
+
+.nav{
+	float: left;
+    height: 42px;
+    padding-left: 29px;
+}
+.top0{
+	float: left;
+}
+
+.shouye{
+	color: #3eb4fa;
+    display: inline-block;
+    padding: 0 29px;
+    font: 16px/42px "microsoft yahei";
+    background: none;
+}
+.ydsc1{
+	display: inline-block;
+    padding: 0 29px;
+    font: 16px/42px "microsoft yahei";
+    background: none;
+    color: #222222;
+
+}
+.ydsc1:hover{
+	color: #3eb4fa;
+}
+.big-nav{
+    width: 1200px;
+    height: 402px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.nav-left{
+	width: 234px;
+    height: 402px;
+    float: left;
+
+
+}
+.nav-small{
+	width: 234px;
+    height: 402px;
+}
+.qige{
+	width: 233px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    background: #ffffff url(../img/zuocejiantou.png) no-repeat 195px center;
+}
+.qige:hover{
+	border: 1px solid #3eb4fa;
+}
+.nav-xiaogezi{
+	float: left;
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding-left: 31px;
+    font: 16px/50px "microsoft yahei";
+    color: #333333;
+}
+
+.ywt{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.lunbo123{
+    width: 750px;
+    height:402px;
+    background: black;
+    margin-left: 234px;
+}
+.lunbotu456{
+	width: 100%;
+    height: 402px;
+    margin: auto;
+}
