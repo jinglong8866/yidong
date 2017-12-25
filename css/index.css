@@ -281,8 +281,7 @@ header {
 	width: 234px;
     height: 402px;
     float: left;
-
-
+    
 }
 .nav-small{
 	width: 234px;
@@ -296,7 +295,11 @@ header {
 }
 .qige:hover{
 	border: 1px solid #3eb4fa;
+	background: #ffffff url(../img/nav_bgli.jpg) no-repeat 195px center;
 }
+
+
+
 .nav-xiaogezi{
 	float: left;
     display: block;
@@ -305,6 +308,7 @@ header {
     padding-left: 31px;
     font: 16px/50px "microsoft yahei";
     color: #333333;
+    transition: all 0.2s;
 }
 
 .ywt{
@@ -317,9 +321,816 @@ header {
     height:402px;
     background: black;
     margin-left: 234px;
+    position: relative;
 }
 .lunbotu456{
-	width: 100%;
+	
     height: 402px;
     margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-xiaogezi:hover{
+	color: #3eb4fa;
+}
+.lunbodian{
+	height: 10px;
+    width: 300px;
+/*    background: #000000;*/
+    position: absolute;
+    bottom: 13px;
+    left: 38%;
+
+}
+.lunbodian li:first-child{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background:hotpink;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+	
+}
+.lunbodian li:nth-child(2){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(3){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(4){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(5){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(6){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(7){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(8){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(9){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+.lunbodian li:nth-child(10){
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.dhym{
+	width: 258px;
+    height: 402px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+    z-index: 9;
+}
+.dhym-top{
+	width: 258px;
+	height: 148px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+.dhym-top ul{
+	padding: 0px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.dhym-top ul li{
+	height: 74px;
+    float: left;
+    width: 86px;
+    text-align: center;
+}
+.dhym-top-a{
+	display: block;
+    cursor: pointer;
+    color: #333333;
+    position: relative;
+    width: 86px;
+    height: 74px;
+}
+.huafeitp{
+    margin-left: 16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    transition: all 0.2s;
+    
+}
+.huafeitp:hover{
+    transform: scale(1.1,1.1);
+
+
+}
+
+
+
+
+.huafeiwz1{
+	width: 86px;
+    padding: 10px 0 20px;
+    font: 12px/12px "microsoft yahei";
+    text-align: center;
+}
+
+.hui{
+	display: block;
+	width: 21px;
+    height: 21px;
+    font: 14px/21px "宋体";
+    background: #e40077;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -12px;
+    right: 18px;
+    text-align: center;
+    z-index: 99;
+}
+
+.chf{
+	width: 230px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px dotted #c2c2c2;
+}
+
+.hfzz12{
+	display: block;
+    float: left;
+    padding: 0px 0px 5px;
+    margin: 0 15px;
+    font: 14px/14px "microsoft yahei";
+    color: #3eb4fa;
+    border-bottom: 2px solid #3eb4fa;
+}
+.liuliang123{
+	display: block;
+    float: left;
+    padding: 0px 0px 5px;
+    margin: 0 15px;
+    font: 14px/14px "microsoft yahei";
+    color: #222222;
+    border-bottom: 2px solid #ffffff;
+    transition: all 0.2s;
+}
+
+.liuliang123:hover{
+	color: #3eb4fa;
+	border-bottom: 2px solid #3eb4fa;
+}
+.dhym-bottom{
+	width: 230px;
+    padding-top: 13px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sjhsr{
+	width: 208px;
+    height: 34px;
+    padding: 0 10px;
+    font: 12px/33px "microsoft yahei";
+    border: 1px solid #dadada;
+}
+.mianzhi{
+	width: 240px;
+    height: 32px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.jutimianzhi{
+	border: 1px solid #e30077;
+    color: #ffffff;
+    background: #e30077;
+    float: left;
+    display: inline-block;
+    width: 37px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    margin-right: 8px;
+    text-align: center;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+.jutimianzhi1{
+	border: 1px solid #e30077;
+    color: #000;
+    background: #FFFFFF;
+    float: left;
+    display: inline-block;
+    width: 37px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    margin-right: 8px;
+    text-align: center;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.jutimianzhi1:hover{
+	color: #ffffff;
+    background: #e30077;
+}
+.lijicz{
+	width: 230px;
+	height: 200px;
+    margin: 0 auto;
+    padding-top:12px;
+}
+.lijiczanniu{
+	display: inline-block;
+    float: right;
+    width: 129px;
+    height: 34px;
+    font: 14px/34px "microsoft yahei";
+    border-radius: 2px;
+    text-align: center;
+    color: #ffffff!important;
+    background: #3eb4fa;
+}
+.gundunhezi{
+	width: 1200px;
+	height:170px;
+	margin: 0 auto;
+	margin-top: 25px;;
+}
+.gundunbox{
+	float: left;
+    width: 235px;
+    height: 170px;
+}
+.gun1{
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.gunyou{
+	float: right;
+    width: 960px;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+}
+.gunyouniu1{
+	position: absolute;
+    left: 0px;
+    top: 70px;
+    height: 35px;
+    width: 28px;
+    background: url(../img/gunniu1.png) no-repeat;
+    cursor: pointer;
+    z-index: 10;
+
+}
+.gunyouniu2{
+	position: absolute;
+    right: 0px;
+    top: 70px;
+    height: 35px;
+    width: 28px;
+    background: url(../img/gunniu2.png) no-repeat;
+    cursor: pointer;
+    z-index: 10;
+}
+.box4{
+    float: left;
+    width: 234px;
+    height: 170px;
+    margin: 0 7px 0 0;
+    position: relative;
+    background: #f4f4f4;
+}
+.box41{
+    float: left;
+    width: 237px;
+    height: 170px;
+    position: relative;
+    background: #f4f4f4;
+}
+.gundong-noe h3{
+	float: left;
+    width: 215px;
+    padding: 13px 10px 0;
+    font: bold 18px/25px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gundong-noe p{
+	width: 215px;
+    padding: 6px 10px 0;
+    font: 14px/20px "microsoft yahei";
+    color: #808080;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.guntu-1{
+	width: 120px;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.louceng{
+	width: 1200px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 535px;
+    overflow: hidden;
+    background: #ffffff
+}
+.lcbiaoti{
+	width: 100%;
+    height: 67px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.f1yh{
+	float: left;
+    display: block;
+    padding-top: 32px;
+    font: 22px/22px "microsoft yahei";
+    color: #222222;
+}
+.lcright{
+	float: right;
+    padding-top: 38px;
+}
+.lcright li{
+	float: left;
+    padding-right: 10px;
+    font: 14px/14px "microsoft yahei";
+}
+
+.quanbu{
+    color: #e30077;
+}
+.quanbu1{
+	color: #666666;
+	transition: all 0.2s;
+}
+
+.quanbu1:hover{
+	color: #2BA7FF;
+}
+.lc-bottom{
+	width: 1198px;
+    height: 466px;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+.shulie{
+	float: left;
+    width: 475px;
+    height: 466px;
+    border-right: 1px solid #e8e8e8;
+}
+.shulie-top{
+	width: 475px;
+    height: 325px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+.shulie123{
+	display: block;
+    width: 475px;
+    height: 325px;
+}
+.shulie-bottom{
+	width: 475px;
+    height: 140px;
+    position: relative;
+}
+.shulei-bottom-dj h4{
+	float: left;
+    width: 245px;
+    padding: 50px 0 0 25px;
+    font: 18px/18px "microsoft yahei";
+    color: #222222;
+
+}
+
+.shulei-bottom-dj p{
+	float: left;
+    width: 245px;
+    padding: 8px 0 0 25px;
+    font: 14px/14px "microsoft yahei";
+    color: #808080;
+
+}
+.nmcx{
+	width: 180px;
+    height: 140px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.shulie2{
+    float: left;
+    width: 240px;
+    height: 466px;
+    border-right: 1px solid #e8e8e8;
+    position: relative;
+}
+.shulie2-top{
+    width: 240px;
+    height: 232px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.shulie2-dianj h4{
+    width: 210px;
+    padding: 30px 15px 0;
+    font: 18px/20px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+.shulie2-dianj p{
+    width: 210px;
+    padding: 10px 15px 0;
+    font: 14px/14px "microsoft yahei";
+    color: #808080;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.shulie2-tp{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.shulie21{
+    float: left;
+    width: 240px;
+    height: 466px;
+
+}
+.shulie-top-tu h4{
+    float: left;
+    width: 200px;
+    padding: 25px 0 0 30px;
+    font: 100 22px/34px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.shulie-top-tu p{
+    float: left;
+    width: 220px;
+    padding: 13px 0 0 30px;
+    font: 14px/14px "microsoft yahei";
+    color: #808080;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.shulie-top-tu span{
+    display: block;
+    float: left;
+    width: 220px;
+    padding: 40px 0 0 30px;
+    font: 24px/24px "microsoft yahei";
+    color: #e40077;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.f3{
+    width: 235px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.shulie-top3{
+	width: 475px;
+    height: 360px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.banli456{
+    width: 240px;
+    height: 280px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 185px;
+}
+
+.pgsb{
+	float: left;
+    width: 95px;
+    height: 50px;
+    margin: 1px 0;
+}
+.jiage123456{
+	display: block;
+    width: 210px;
+    padding: 10px 15px 0;
+    font: 16px/16px "microsoft yahei";
+    color: #e40077;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tzc123{
+	display: block;
+    width: 210px;
+    padding: 30px 15px 0;
+    font: 22px/22px "microsoft yahei";
+    color: #e40077;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*特色开始*/
+.spacial{
+	width: 1200px;
+	margin: 0 auto;
+
+}	
+.spacial h2{
+	padding: 40px 0 30px;
+    margin: 0 auto;
+    font: 22px/22px "microsoft yahei";
+    color: #222222;
+}
+.tese{
+	width: 299px;
+	height: 80px;
+	float: left;
+	padding-bottom: 40px;
+}
+.tspicture{
+	float: left;width: 80px;
+	height: 80px;
+}
+.tspicture a{
+	display: block;
+}
+.tswenzi{    
+	float:left;
+    width: 199px;
+    padding-left: 20px;
+}
+.tswenzi a{
+	display: block;
+}
+.tswenzi h4{
+	width: 100%;
+    padding-top: 15px;
+    font: 18px/18px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tswenzi p{
+	width: 100%;
+    padding-top: 11px;
+    font: 14px/14px "microsoft yahei";
+    color: #808080;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gonggao{
+	width: 1198px;
+    height: 38px;
+    margin: 10px auto 0;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    line-height: 38px;
+    overflow: hidden;
+
+}
+.gonggao span{
+	    display: block;
+    float: left;
+    width: 50px;
+    padding-left: 50px;
+    background: url(../../images/index5/indexgg.gif) no-repeat 20px center;
+    color: #666;
+}
+.gonggao ul{
+	    float: left;
+    width: 1000px;
+    margin: 0;
+}
+.gonggao ul li{
+	
+    float: left;
+    width: 470px;
+    padding: 0 10px 0 20px;
+    background: url(../../images/index5/indexgg.png) no-repeat 5px center;
+}
+.gonggao ul li a{
+	display: block;
+}
+.gonggao ul li p{
+	float: left;
+}
+.gonggao ul li em{
+    float: left;
+    display: block;
+    width: 130px;
+    padding-left: 10px;
+    font: normal 14px/38px "microsoft yahei";
+    color: #d5cccc;
+    background: none;
+}
+.gz{
+	width: 1198px;
+    margin: 10px auto 0;
+    padding-bottom: 18px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+.gz h3{
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.gz h3 a{
+	float: right;
+    display: block;
+    font: 12px/12px "microsoft yahei";
+    padding: 0 15px 0 0;
+    color: #666666;
+}
+.gz .aa{
+	float: left;
+    display: block;
+    padding: 7px 20px 0 23px;
+}
+.gz span img{
+	width: 48px;
+	height: 48px;
+}
+.gz ul{
+	width: 1000px;
+	margin: 0;
+	float: left;
+
+}
+.gz ul li{
+	float: left;
+    width: 470px;
+    padding: 0 10px 0 20px;
+    font: 14px/28px "microsoft yahei";
+}
+.gz ul li em{
+	float: left;
+}
+.gz ul li a{
+	float: left;
+	width: 330px;
+	
+}
+.gz ul li span:last-child{
+
+	float: left;
+    width: 120px;
+    padding-left: 10px;
+    color: #d5cccc;
+    background: none;
+}
+.dibu{
+	    width: 1163px;
+    margin: 10px auto 0;
+    border: 1px solid #dfdfdf;
+    padding: 20px 0 20px 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.dibu-list{
+	width: 20%;
+	
+}
+.dibu-list h2{
+	font: bold 15px/27px "微软雅黑";
+    color: #666;
+    margin: 0;
+    height: 27px;
+}
+.listbox a{
+	
+	display: block;
+    font-size: 15px;
+    line-height: 180%;
+	color:#666;
+}
+.footer{
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
+.row1{
+	color: #666;
+	line-height: 33px;
+}
+.nn{
+	display: inline-block;
+	text-align: center;
+}
+.nn2{
+	
 }
