@@ -316,20 +316,27 @@ header {
 	vertical-align: middle;
 
 }
-.lunbo123{
-    width: 750px;
+
+
+.lbhq{
+	width: 750px;
     height:402px;
-    background: black;
     margin-left: 234px;
     position: relative;
 }
-.lunbotu456{
-	
-    height: 402px;
+
+.lbhq li{
+	height: 402px;
     margin: auto;
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.lbhq li.active{
+	z-index: 8;
+	opacity: 1;
 }
 .nav-xiaogezi:hover{
 	color: #3eb4fa;
@@ -337,24 +344,16 @@ header {
 .lunbodian{
 	height: 10px;
     width: 300px;
-/*    background: #000000;*/
     position: absolute;
     bottom: 13px;
     left: 38%;
+    z-index: 10;
+}
+.lunbodian li.active{
+	background: red;
+}
 
-}
-.lunbodian li:first-child{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background:hotpink;
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
-	
-}
-.lunbodian li:nth-child(2){
+.lunbodian li{
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
@@ -364,86 +363,46 @@ header {
     margin-right: 10px;
     float: left;
 }
-.lunbodian li:nth-child(3){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
+
+.zuo{
+	opacity: 0;
 	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+	width: 34px;
+	height: 69px;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index:20;
 }
-.lunbodian li:nth-child(4){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
+.you{
 	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+    opacity: 0;
+	width: 34px;
+	height: 69px;
+	position: absolute;
+	right: 46px;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 20;	
 }
-.lunbodian li:nth-child(5){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+.lbhq:hover .zuo{
+	opacity: 1;
 }
-.lunbodian li:nth-child(6){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+.lbhq:hover .you{
+	opacity: 1;
 }
-.lunbodian li:nth-child(7){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+.lunbo .zuo:hover{
+	opacity: 0.6;
 }
-.lunbodian li:nth-child(8){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
+.lunbo .you:hover{
+	opacity: 0.6;
 }
-.lunbodian li:nth-child(9){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
-}
-.lunbodian li:nth-child(10){
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	cursor: pointer;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    margin-right: 10px;
-    float: left;
-}
+
 
 .dhym{
 	width: 258px;
@@ -936,6 +895,61 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.f4box1{
+	width: 475px;
+    height: 116px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e8e8e8;
+    background: #ffffff;
+    position: relative;
+    transition: 0.2s;
+
+}
+
+.f4box1:hover{
+	background: #DFDFDF;
+}
+
+.znsh{
+	float: left;
+    width: 260px;
+    padding: 25px 0 0 40px;
+    font: 100 20px/20px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.znshxm{
+	float: left;
+    width: 260px;
+    padding: 15px 0 0 40px;
+    font: 14px/14px "microsoft yahei";
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.znshjg{
+	display: block;
+    width: 260px;
+    padding: 10px 0 0 40px;
+    font: 16px/16px "microsoft yahei";
+    color: #e40077;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.znshtp{
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 35px;
 }
 
 
